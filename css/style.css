@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/443/960/991/fire-background-flames-wallpaper-thumb.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,p,ul{
+    color: white;
+    text-transform: capitalize;
+}
+.pkmnPic{
+    height: 500px;
+}
+#info{
+    border: 5px solid red;
+    width: 500px;
+    background-color: black;
+    margin: 100px;
+}
+.sub-head{
+    color: gold;
+    text-decoration: underline;
+}
+#description{
+    border: 5px solid red;
+    background-color: black;
+    width: 500px;
+    margin: 100px;
+}
+#details{
+    margin-left: 200px;
+    display: flex;
+}
+#text{
+    text-transform: none;
+}
