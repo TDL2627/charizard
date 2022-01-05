@@ -54,9 +54,9 @@ h1,h2,h3,p,ul{
   }
   @keyframes drive {
     0% { transform: translateX(-100px); } /* Starting point */
-    10%{bottom: -1300px;}
-    25%{bottom:-1300px; }
-    50%{bottom:-1300px;}
-    70%{bottom:-1300px;}
-    100% { transform: translateX(1700px); } /* Ending point */
+    10%{bottom: -1210px;}
+    25%{bottom:-1210px; }
+    50%{bottom:-1210px;}
+    70%{bottom:-1210px;}
+    100% { transform: translateX(1510px); } /* Ending point */
   }
