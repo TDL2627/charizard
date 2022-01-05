@@ -39,10 +39,20 @@ h1,h2,h3,p,ul{
     text-transform: none;
 }
 
+
+
+
+footer{
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
 .chari {
     position: absolute;
     height: 300px;
-    bottom: -1200px;
+    top: 0;
     left: 0;
     animation-name: drive;
     animation-duration: 7s;
@@ -53,10 +63,11 @@ h1,h2,h3,p,ul{
     /* animation-direction: alternate; */
   }
   @keyframes drive {
-    0% { transform: translateX(-100px); } /* Starting point */
+    0% { transform: translateY(-100px); } /* Starting point */
     10%{bottom: -1210px;}
     25%{bottom:-1210px; }
     50%{bottom:-1210px;}
     70%{bottom:-1210px;}
-    100% { transform: translateX(1510px); } /* Ending point */
+    100% { transform: translateY(1700px); } /* Ending point */
   }
+
