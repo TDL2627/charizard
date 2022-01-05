@@ -36,6 +36,9 @@ fetch('https://pokeapi.co/api/v2/pokemon/6').then(result =>{
         <li>${ data2.moves[8].move.name }</li>
         
         </ul>
+
+        <h3 class="sub-head">The sound of charizard</h3>
+        <iframe width="110" height="100" src="https://www.myinstants.com/instant/charizard-73796/embed/" frameborder="0" scrolling="no"></iframe>
         <br>
 
     `

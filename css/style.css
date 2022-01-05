@@ -38,3 +38,25 @@ h1,h2,h3,p,ul{
 #text{
     text-transform: none;
 }
+
+.chari {
+    position: absolute;
+    height: 300px;
+    bottom: -1200px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+    /* Can choose the direction of the animation */
+    /* animation-direction: alternate; */
+  }
+  @keyframes drive {
+    0% { transform: translateX(-100px); } /* Starting point */
+    10%{bottom: -1300px;}
+    25%{bottom:-1300px; }
+    50%{bottom:-1300px;}
+    70%{bottom:-1300px;}
+    100% { transform: translateX(1700px); } /* Ending point */
+  }
