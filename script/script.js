@@ -50,7 +50,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/6').then(result =>{
         <p>${data2.stats[5].stat.name} : ${data2.stats[5].base_stat}</p>
 
         <h3 class="sub-head">Weight</h3>
-        <p>${data2.weight} KG</p>
+        <p>${data2.weight/10} KG</p>
         <h3 class="sub-head">Ability</h3>
         <p>${data2.abilities[0].ability.name}/${data2.abilities[1].ability.name}</p>
 
